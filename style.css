@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary {
+    background: #0D6EFD;
+    color: #FFFFFF;
+}
+
+.singBtn {
+    width: 140px;
+    height: 54px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.logo {
+    color: rgb(64, 63, 63);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.bannerInfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+}
+
+.bannerTitle {
+    color: rgb(16, 15, 15);
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 98px;
+}
+
+
+.bannerP {
+    color: rgb(112, 111, 111);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bannerImg {
+    display: flex;
+    justify-content: center;
+}
+
+
+.bannerSearch {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.bannerBtn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 8px;
+    width: 160px;
+    height: 64px;
+    margin-top: 20px;
+    border: none;
+}
+
+.btnSearch {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 8px;
+    width: 150px;
+    height: 64px;
+    margin-top: 20px;
+    border: none;
+    margin-left: -50px;
+}
+
+.searchBox {
+    width: 752px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgba(16, 15, 15, 0.05);
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+
+
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Card Style */
+
+.product-card {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid gainsboro;
+ 
+
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 15px;
+}
+
+.product-description {
+    font-size: 0.875rem;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.product-actions {
+    margin-top: 20px;
+}
+
+.Add {
+    border-radius: 8px;
+    background: rgb(13, 110, 253);
+    padding: 10px 20px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.primary:hover {
+    background-color: #45a049;
+}
+
+.showMore{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.none{
+    display: none;
+}
+
+.d-flex{
+    gap: 20px;
+}
